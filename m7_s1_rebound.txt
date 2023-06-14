@@ -1,0 +1,20 @@
+Server [localhost]:
+Database [postgres]: practica_db
+Port [5432]:
+Username [postgres]: node_user
+Contraseña para usuario node_user:
+psql (15.2)
+ADVERTENCIA: El código de página de la consola (850) difiere del código
+            de página de Windows (1252).
+            Los caracteres de 8 bits pueden funcionar incorrectamente.
+            Vea la página de referencia de psql «Notes for Windows users»
+            para obtener más detalles.
+Digite «help» para obtener ayuda.
+
+practica_db=> \conninfo
+Está conectado a la base de datos «practica_db» como el usuario «node_user» en el servidor «localhost» (dirección «::1») port «5432».
+practica_db=> CREATE TABLE estudiantes(id serial, nombres varchar(50), apellidos varchar(50), edad varchar(50), Nro_identificacion integer);
+CREATE TABLE
+practica_db=> CREATE TABLE cursos(id serial, titulo varchar(80), descripcion varchar(80));
+CREATE TABLE
+practica_db=>
